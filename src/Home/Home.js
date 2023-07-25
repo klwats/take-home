@@ -1,7 +1,12 @@
 import React from 'react';
-import Story from '../story/story'
+import Story from '../Story/Story'
 
-function Home() {
+const Home = () => {
+
+
+
+
+
     return (
         <div>
             <h1>Today's Top Stories</h1>
