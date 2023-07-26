@@ -3,11 +3,11 @@ import { storyData } from '../testData'
 import { useParams } from 'react-router-dom'
 import '../Stories/Stories.css'
 
-function Stories() {
+function Stories({ todaysStories }) {
     const { id } = useParams();
     const storyIndex = parseInt(id)
 
-    const story = storyData.articles[storyIndex]
+    const story = todaysStories[storyIndex]
     console.log(story)
     const { title, urlToImage, description, publishedAt, content } = story
 

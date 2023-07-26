@@ -1,5 +1,5 @@
 const fetchTodaysTopStories = async () => {
-    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=97869d4f31d14d58993e2cee144514d4');
+    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=1dc288ac69b24baf8142392c19b6146f');
     if (response.ok) {
         return (await response.json()).articles;
     } else {
