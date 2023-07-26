@@ -11,16 +11,16 @@ const App = () => {
   var [date, setDate] = useState(new Date())
   var [todaysStories, setTodaysStories] = useState('')
 
-  const getYesterday = () => {
-    const yesterday = new Date(date);
-    yesterday.setDate(yesterday.getDate() - 1);
-    return yesterday;
-  }
+  // const getYesterday = () => {
+  //   const yesterday = new Date(date);
+  //   yesterday.setDate(yesterday.getDate() - 1);
+  //   return yesterday;
+  // }
 
-  useEffect(() => {
-    const yesterdayDate = getYesterday();
-    setDate(yesterdayDate)
-  }, []);
+  // useEffect(() => {
+  //   const yesterdayDate = getYesterday();
+  //   setDate(yesterdayDate)
+  // }, []);
 
   //when fetch call happens to get stories from yesterday; set todaysStories to that data
 

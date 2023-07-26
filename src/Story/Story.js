@@ -1,6 +1,7 @@
 import React from 'react';
 import { storyData } from '../testData'
 import { NavLink } from 'react-router-dom'
+import '../Story/Story.css'
 
 function Story({ date }) {
     const filteredStories = storyData.articles.filter(article => {
@@ -21,12 +22,12 @@ function Story({ date }) {
     })
 
     return (
-        <div>
+        <div className='grid-container'>
             {indStory.map((story, index) => (
                 <NavLink to={`/stories/${index}`} key={index}>
                     < div >
-                        <h1>{story.headline}</h1>
-                        <img src={story.image} alt={story.description} />
+                        <h1 className='home-headline'>{story.headline}</h1>
+                        <img className='home-image' src={story.image} alt={story.description} />
                         <p>{story.description}</p>
                         <date>{story.date}</date>
                     </div>

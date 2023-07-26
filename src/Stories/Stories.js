@@ -1,6 +1,7 @@
 import React from 'react';
 import { storyData } from '../testData'
 import { useParams } from 'react-router-dom'
+import '../Stories/Stories.css'
 
 function Stories() {
     const { id } = useParams();
@@ -24,12 +25,16 @@ function Stories() {
 
     return (
         //storyDetails.map(story => {
-        <div className="individual-story">
-            <h2>{title}</h2>
-            <img src={urlToImage} alt={description} />
-            <p>{description}</p>
-            <p>{publishedAt}</p>
-            <p>{content}</p>
+        <div className="individual-story-container">
+            <div className='left-column'>
+                <h2>{title}</h2>
+                <img className='ind-story-image' src={urlToImage} alt={description} />
+                <p>{publishedAt}</p>
+            </div>
+            <div className='right-column'>
+                <p>{description}</p>
+                <p>{content}</p>
+            </div>
         </div>
         //}
     )
