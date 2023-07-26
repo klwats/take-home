@@ -1,7 +1,8 @@
 import React from 'react';
-import { storyData } from '../testData'
+//import { storyData } from '../testData'
 import { NavLink } from 'react-router-dom'
 import '../Story/Story.css'
+
 
 function Story({ date }) {
     const filteredStories = storyData.articles.filter(article => {
