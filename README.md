@@ -2,28 +2,25 @@
 ## Abstract
 NewsReader is a news app that presents the user with today's top news stories. It also allows them to select news stories from seven different categories.
 ## Project Background
-This web application was developed for the Turing School of Software and Design's Mod 4 Take-Home project. Students were asked to design and create an app in 8 hours. We were provided with very few requirements: At a minimum, you must show:
+This web application was developed for the Turing School of Software and Design's Mod 4 Take-Home project. Students were asked to design and create an app in 8 hours. We were provided with very few requirements: 
 
 - A list of articles (headline, image, description if present, date)
 - A “detailed” view for each article (headline, image, date, content, source)
 - Articles in the list must link to a detailed article view within your app (linking to the source website does not fulfill this requirement)
 - Some sort of search, filter, OR sort
 
-Cocktail data for the project was accessed from the public [Cocktail DB API](https://www.thecocktaildb.com/api.php). 
+News data for the project was accessed from the public [News API](https://newsapi.org/). 
 ## Technologies
-  - Typescript
+  - JavaScript
   - React
   - CSS & HTML
   - Webpack module bundler
-  - Cypress end-to-end testing framework
   - Postman (for API request testing)
-  - GitHub Projects
-  - Figma and Adobe Illustrator for wireframing
+  - GitHub
+  - Miro for wireframing
 ## Contributors
-  - Adriane Sutherland - [GitHub](https://github.com/asutherland91) [LinkedIn](https://www.linkedin.com/in/adrianesutherland/)
   - Kelli Watkins - [Github](https://github.com/klwats) [LinkedIn](https://www.linkedin.com/in/kelli-watkins-1b73418b/)
-  - Ashlee Webb - [GitHub](https://github.com/AshleeAWebb) [LinkedIn](https://www.linkedin.com/in/ashlee-webb/)
-  - John Featherstone - [GitHub](https://github.com/JWFeatherstone) [LinkedIn](https://www.linkedin.com/in/john-w-featherstone/)
+  
 ## Project Specification
 [Project Spec and Rubric](https://frontend.turing.edu/projects/module-3/stretch.html)
 ## Reflections
