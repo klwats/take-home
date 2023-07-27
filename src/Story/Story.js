@@ -1,14 +1,18 @@
 import React from 'react';
-import { storyData } from '../testData'
+//import { storyData } from '../testData'
 import { NavLink } from 'react-router-dom'
 import '../Story/Story.css'
 
-function Story({ date }) {
-    const filteredStories = storyData.articles.filter(article => {
+
+function Story({ date, todaysStories }) {
+    if (todaysStories.length === 0) {
+        return <div>Loading...</div>
+    }
+    const filteredStories = todaysStories.filter(article => {
         const articleDate = new Date(article.publishedAt);
-        console.log('publishedAt', articleDate)
         return articleDate.toDateString() === date.toDateString()
-    })
+    }
+    )
 
     const indStory = filteredStories.map(article => {
         let key = article.publishedAt.toString
