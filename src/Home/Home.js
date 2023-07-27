@@ -13,7 +13,6 @@ const Home = ({ date, todaysStories }) => {
     return (
         <div>
             <h1 className='top-stories'>Today's Top Stories</h1>
-
             <h3 className='date'>{formattedDate}</h3>
             <Story date={date} todaysStories={todaysStories} />
         </div>

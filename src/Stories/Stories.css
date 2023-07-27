@@ -2,20 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    background-color: #609b8c
 }
-
 
 .left-column {
     flex: 1;
     max-width: 400px;
-
 }
-
 
 .right-column {
     flex: 1;
     max-width: 600px;
-
 }
 
 .ind-story-image {

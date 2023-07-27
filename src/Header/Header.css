@@ -1,6 +1,11 @@
 .header {
     display: flex;
     justify-content: flex-begin;
+    align-items: center;
     font-size: 48px;
-
+    color: #609b8c;
+    background-image: url(https://cdn.dribbble.com/users/2812202/screenshots/17609209/media/505babc69911d14e2428f2dd9921fdcf.png);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
 }

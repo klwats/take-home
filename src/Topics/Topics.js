@@ -1,14 +1,11 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { storyData } from '../testData'
 import { useParams, Link } from 'react-router-dom';
-import Stories from '../Stories/Stories'
 import { selectTopics } from '../apiCalls'
 import '../Topics/Topics.css'
 
 const Topics = () => {
     const { id } = useParams()
     const [topicArticles, setTopicArticles] = useState([])
-
 
     const fetchSelectedTopic = useCallback(async () => {
         try {
@@ -42,7 +39,6 @@ const Topics = () => {
             </div >
         </div>
     );
-
 }
 
 export default Topics;

@@ -11,20 +11,7 @@ function Stories({ todaysStories }) {
     console.log(story)
     const { title, urlToImage, description, publishedAt, content } = story
 
-    // const findStory = storyData.articles.filter(article => article.index === storyIndex)
-    // const storyDetails = findStory.map(article => {
-    //     let key = article.publishedAt.toString;
-    //     return {
-    //         headline: article.title,
-    //         image: article.urlToImage,
-    //         description: article.description,
-    //         date: article.publishedAt,
-    //         content: article.content
-    //     }
-    // })
-
     return (
-        //storyDetails.map(story => {
         <div className="individual-story-container">
             <div className='left-column'>
                 <h2>{title}</h2>
@@ -36,9 +23,7 @@ function Stories({ todaysStories }) {
                 <p>{content}</p>
             </div>
         </div>
-        //}
     )
-    //)
 }
 
 export default Stories;

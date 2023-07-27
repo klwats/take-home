@@ -5,6 +5,7 @@ import App from './App/App';
 import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { StrictMode } from 'react'
+import './styles.css'
 
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));

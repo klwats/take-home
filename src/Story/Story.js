@@ -1,5 +1,4 @@
 import React from 'react';
-//import { storyData } from '../testData'
 import { NavLink } from 'react-router-dom'
 import '../Story/Story.css'
 

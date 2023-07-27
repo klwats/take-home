@@ -4,13 +4,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-} */
-
 main {
     padding: 20px;
 }
@@ -21,15 +14,17 @@ main {
     gap: 20px;
 }
 
-/* .grid-item {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ccc;
-} */
-
 .top-stories,
 .date {
     display: flex;
     justify-content: center;
-    color: rgb(9, 9, 112);
+    color: #609b8c;
+}
+
+.top-stories {
+    font-size: 60px;
+}
+
+.date {
+    font-size: 30px
 }

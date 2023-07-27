@@ -12,7 +12,9 @@ const Header = ({ selectedTopic }) => {
 
     return (
         <div>
-            <h1 className='header'>NewsReader</h1>
+            <Link to={'/'} className='header-link'>
+                <h1 className='header'>NewsReader</h1>
+            </Link>
             <select className='news-dropdown' onChange={handleTopicSelect} >
                 <option value='' disabled defaultValue>Select a Category</option>
                 <option value='Business'>Business</option>
@@ -23,7 +25,6 @@ const Header = ({ selectedTopic }) => {
                 <option value='Sports'>Sports</option>
                 <option value='Technology'>Technology</option>
             </select>
-
             <Link to={`/topics/${selectedTopic}`} className='link-to-topics' >
                 <button>Go</button>
             </Link>

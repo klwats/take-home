@@ -30,8 +30,6 @@ const App = () => {
     getTodaysStories()
   }, [getTodaysStories])
 
-
-
   const getYesterday = () => {
     const yesterday = new Date(date);
     yesterday.setDate(yesterday.getDate() - 1);
@@ -42,7 +40,6 @@ const App = () => {
     const yesterdayDate = getYesterday();
     setDate(yesterdayDate)
   }, []);
-
 
 
   return (
@@ -61,14 +58,6 @@ const App = () => {
         )}>
         </Route>
         <Route exact path='/topics/:id' component={Topics} />
-
-        {/* render={({ match }) => (
-        //   <main>
-        //     <Topics id={match.params.id} selectedTopic={selectedTopic} />
-        //   </main>
-        // )}> */}
-
-        {/* //</div></Route> */}
       </Switch >
     </div>
   )
