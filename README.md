@@ -2,7 +2,12 @@
 ## Abstract
 NewsReader is a news app that presents the user with today's top news stories. It also allows them to select news stories from seven different categories.
 ## Project Background
-This web application was developed for the Turing School of Software and Design's Mod 3 Stretch Tech project. Students were given license to research and implement a technology, not otherwise addressed within the program's curriculum, over the course of ten days. For this project, the contributors chose to integrate TypeScript, a type-safe superset of JavaScript.
+This web application was developed for the Turing School of Software and Design's Mod 4 Take-Home project. Students were asked to design and create an app in 8 hours. We were provided with very few requirements: At a minimum, you must show:
+
+- A list of articles (headline, image, description if present, date)
+- A “detailed” view for each article (headline, image, date, content, source)
+- Articles in the list must link to a detailed article view within your app (linking to the source website does not fulfill this requirement)
+- Some sort of search, filter, OR sort
 
 Cocktail data for the project was accessed from the public [Cocktail DB API](https://www.thecocktaildb.com/api.php). 
 ## Technologies
