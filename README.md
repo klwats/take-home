@@ -22,18 +22,13 @@ News data for the project was accessed from the public [News API](https://newsap
   - Kelli Watkins - [Github](https://github.com/klwats) [LinkedIn](https://www.linkedin.com/in/kelli-watkins-1b73418b/)
   
 ## Project Specification
-[Project Spec and Rubric](https://frontend.turing.edu/projects/module-3/stretch.html)
+(https://mod4.turing.edu/projects/take_home/take_home_fe)
 ## Reflections
 ### Wins
-(Kelli) I initially struggled deciding how to set up my component, as it was nested and relied on my ability to effectively read code written by my teammates, who were using different techniques than myself (async/await instead of fetch calls and hooks instead of class components). I was initially very overwhelmed and was second-guessing myself. I eventually asked my teammates to meet with me via zoom so I could rubber-duck my ideas and discuss other options. This was very beneficial and I was very proud when I was able to present my component!
-
-(Adriane) In my first mod 3 project I struggled greatly with using router and made a lot of mistakes, in this project I feel that I actually was better able to understand how router was working and better able to connect the pages together. This is less of a personal win, but I also think that this team worked very well together and communicated very well and I think that is such a huge win over all.
+I did not initially think I would be able to design and build an app in 8 hours. I had a timer running throughout the project and was very impressed with myself when I had a fully functioning app in that time frame!
 
 ### Challenges, Lessons Learned & Potential Improvements
-(Kelli) This was the first time I worked in a group that primarily did independent work. This was initially very overwhelming and I felt like I didn't know where to start on my tasks. I learned how to effectively have daily stand-up meetings to discuss progress, barriers, and goals. This process helped me improve my solo research skills and made me more comfortable communicating issues/blockers asynchronously. This is still an area for me to improve upon, but I already feel more confident in my ability to explain my thought process and ask for help when needed.
-...
-
-(Adriane) I learned a lot from my groupmates about cypress in this project, I learn well by seeing what other people do and my groupmates wrote very robust tests. I also on my own branch practiced writing my own cypress tests. In the last project I’d say I was very bad at Cypres, but because of the people I worked with and the practice I did during this project I feel much more comfortable with it now. I’d still say I have a lot more to learn though.
+I learned the importance of asking clarifying questions at the beginning, even if you're 95% sure you are correct! I also learned the importance of fully reviewing the API endpoints prior to designing the project. There is a lot of room for improvement with the CSS but I chose to prioritize functionality over design, given the time restraints.
 ## Set Up
 ### Option 1: Visit the Deployed Site
 Here.
