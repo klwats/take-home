@@ -29,13 +29,10 @@ I did not initially think I would be able to design and build an app in 8 hours.
 
 ### Challenges, Lessons Learned & Potential Improvements
 I learned the importance of asking clarifying questions at the beginning, even if you're 95% sure you are correct! I also learned the importance of fully reviewing the API endpoints prior to designing the project. There is a lot of room for improvement with the CSS but I chose to prioritize functionality over design, given the time restraints.
-## Set Up
-### Option 1: Visit the Deployed Site
-Here.
-### Option 2: Installing the Repository Locally
-1. Fork [this](https://github.com/JWFeatherstone/bootleg-barkeep) repository to your GitHub account.
+## Set Up: Installing the Repository Locally
+1. Fork (https://github.com/klwats/take-home) repository to your GitHub account.
 1. Copy SSH key on GitHub inside the code dropdown.
-1. Using the terminal, run git clone [SSH key here].
+1. Using the terminal, run git clone.
 1. cd into the repository.
 1. Open the repository in your text editor.
 1. Run npm install
@@ -47,7 +44,7 @@ Here.
   - [MDN](http://developer.mozilla.org/en-US/)
   - [W3Schools](https://www.w3schools.com/)
   - [React Docs](https://reactjs.org/docs/getting-started.html)
-  - [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress.html)
+  
 
 
 
