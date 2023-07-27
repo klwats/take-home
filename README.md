@@ -1,6 +1,6 @@
-<!-- # NewsReader
+# NewsReader
 ## Abstract
-Bootleg Barkeep is a Prohibition-era themed cocktail app that presents the user with the ability to search for cocktails by their base alcohol type, to see a given cocktails' ingredients and preparation instructions, and that provides the user with randomized suggestions of drinks to try.
+NewsReader is a news app that presents the user with today's top news stories. It also allows them to select news stories from seven different categories.
 ## Project Background
 This web application was developed for the Turing School of Software and Design's Mod 3 Stretch Tech project. Students were given license to research and implement a technology, not otherwise addressed within the program's curriculum, over the course of ten days. For this project, the contributors chose to integrate TypeScript, a type-safe superset of JavaScript.
 
