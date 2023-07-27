@@ -5,13 +5,11 @@ import '../Story/Story.css'
 
 
 function Story({ date, todaysStories }) {
-    console.log('tomato', todaysStories)
     if (todaysStories.length === 0) {
         return <div>Loading...</div>
     }
     const filteredStories = todaysStories.filter(article => {
         const articleDate = new Date(article.publishedAt);
-        console.log('publishedAt', articleDate)
         return articleDate.toDateString() === date.toDateString()
     }
     )

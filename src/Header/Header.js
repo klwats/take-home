@@ -1,9 +1,13 @@
 import React from 'react';
 import '../Header/Header.css'
 import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 const Header = ({ selectedTopic }) => {
-    const handleTopicSelect = (event) => {
+    const history = useHistory()
+    const handleTopicSelect = (e) => {
+        const selectedTopic = e.target.value;
+        history.push(`/topics/${selectedTopic}`)
     };
 
     return (

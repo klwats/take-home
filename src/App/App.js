@@ -4,8 +4,7 @@ import Header from '../Header/Header'
 import Home from '../Home/Home'
 import Stories from '../Stories/Stories'
 import Topics from '../Topics/Topics'
-import { fetchTodaysTopStories } from '../apiCalls'
-
+import { fetchTodaysTopStories, selectTopics } from '../apiCalls'
 
 
 const App = () => {
@@ -17,8 +16,6 @@ const App = () => {
     try {
       const jsonData = await fetchTodaysTopStories()
       setTodaysStories(jsonData)
-      console.log(todaysStories)
-
     } catch (err) {
       console.error("error fetching")
     }
@@ -50,7 +47,7 @@ const App = () => {
 
   return (
     <div>
-      <Header onSelectTopic={handleTopicSelect} />
+      <Header onSelectTopic={handleTopicSelect} selectedTopic={selectedTopic} />
       <Switch>
         <Route exact path="/">
           <main>
@@ -63,13 +60,15 @@ const App = () => {
           </main>
         )}>
         </Route>
-        <Route exact path='/topics/:id' render={({ match }) => (
-          <main>
-            <Topics id={match.params.id} selectedTopic={selectedTopic} />
-          </main>
-        )}>
+        <Route exact path='/topics/:id' component={Topics} />
 
-        </Route>
+        {/* render={({ match }) => (
+        //   <main>
+        //     <Topics id={match.params.id} selectedTopic={selectedTopic} />
+        //   </main>
+        // )}> */}
+
+        {/* //</div></Route> */}
       </Switch >
     </div>
   )
